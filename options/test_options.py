@@ -36,3 +36,4 @@ class TestOptions(BaseOptions):
         self.parser.add_argument('--crop_size', type=int, default=224, help='Crop of size of input image')
         
         self.isTrain = False
+        self.batchSize = 40
